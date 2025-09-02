@@ -8,7 +8,7 @@ function Calculator() {
   const addOne = useMemo(() => {
     return operand + 1;
   }, [operand]);
-
+  // this is a test comment to open up a test PR
   const cubed = useMemo(() => {
     return operand ** 3;
   }, [operand]);
